@@ -16,9 +16,29 @@ div.navbar a{
     background-color: #333333;
     font-size: 13px;
     padding-left: 0px;
+    
 }
 section#main{
-    background-image: url("../img/music.jpg");
+    background-image: url("../img/musical1.jpg");
     background-repeat: no-repeat;
-    padding-bottom: 60px;
+    background-size: cover;
+    padding-bottom: 15%;
+    margin-top: -50px;
+    color: #ffffff;
+    text-align: center;
+}
+section#main h1{
+    font-size: 60px;
+    padding-top: 200px;
+}
+section#main h2{
+    font-size: 35px;
+}
+section#main p{
+    font-size: 20px;
+}
+section#secondmain {
+    background-color: #252529;
+    color: #ffffff;
+    text-align: center;
 }
