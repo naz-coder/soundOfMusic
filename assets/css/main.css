@@ -14,9 +14,8 @@ div.navbar a{
     display: flex;
     word-spacing: 40px;
     background-color: #333333;
-    font-size: 13px;
+    font-size: 15px;
     padding-left: 0px;
-    
 }
 section#main{
     background-image: url("../img/musical1.jpg");
@@ -41,4 +40,152 @@ section#secondmain {
     background-color: #252529;
     color: #ffffff;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+section#secondmain div i{
+    font-size: 45px;
+}
+section#secondmain div h1{
+    font-size: 30px;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+section#secondmain div p{
+    font-size: 18px;
+    width: 1030px;
+    text-align: center;
+    padding-left: 12%;
+    padding-top: 30px;
+    line-height: 30px;
+}
+section#secondmain button{
+    color: white;
+    background-color: #D3071B;
+    padding: 20px;
+    font-size: 15px;
+}
+section#secondmain button:hover{
+    background-color :#D3071B;
+    transition       : 1s all;
+}
+section#secondmain div h5{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-weight: lighter
+}
+section#secondmain div img{
+    border-radius: 30px;
+    border-color: #858585;
+    border-style: solid;
+    height: 600px;
+    box-shadow  : 0 8px 6px 6px #151517;
+}
+section#thirdmain{
+    color: #333333;
+    text-align: center;   
+    padding-top: 50px;
+}
+section#thirdmain div h1{
+    font-size: 32px;
+}
+section#thirdmain div p{
+    font-size: 18px;
+    width: 1030px;
+    text-align: center;
+    padding-left: 12%;
+    padding-top: 30px;
+    line-height: 30px;
+}
+section#thirdmain button{
+    color: white;
+    background-color: #143F85;
+    padding: 20px;
+    font-size: 15px;
+}
+section#thirdmain div img{
+    border-radius: 30px;
+    border-color: #858585;
+    border-style: solid;
+    height: 850px;
+    margin-top: 47px;
+    width: 1200px;
+}
+section#fourthmain{
+    background-image: url("../img/livee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+}
+section#fourthmain h1{
+    font-size: 30px;
+    padding-top: 200px;
+}
+section#fourthmain p{
+    font-size: 20px;
+    width: 60em;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-left: 5%;
+}
+section#fifthmain{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    color: #333333;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+section#fifthmain img{
+    width: 30em;
+    padding-left: 5em;
+}
+section#fifthmain div.gift{
+    width: 38em;
+    margin-left: 4em;
+}
+section#fifthmain div p{
+    line-height: 1.5em;
+}
+section#fifthmain div a{
+    text-decoration: none;
+    color: #333333;
+}
+footer .firstfooter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #252529;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+footer .firstfooter h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+footer .firstfooter a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 13px;
+    line-height: 20px;
+}
+footer .firstfooter li{
+    list-style: none;
+}
+footer .firstfooter hr{
+    width: 13em;
+    color: #cccccc;
+}
+footer .firstfooter ul{
+    padding-left: 5px;
+}
+footer .copy {
+    background-color: #333333;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    color: #ffffff;
 }
