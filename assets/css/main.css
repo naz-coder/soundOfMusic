@@ -1,331 +1,338 @@
 /* @import url("https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap"); */
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
+    font-family : Arial, Helvetica, sans-serif;
+    padding     : 0px;
+    margin      : 0px;
 }
 div.navbar a{
     text-decoration: none;
-    list-style: none;
-    color: #ffffff;
+    list-style     : none;
+    color          : #ffffff;
 }
 .navbar{
-    display: flex;
-    word-spacing: 40px;
+    display         : flex;
+    word-spacing    : 40px;
     background-color: #333333;
-    font-size: 15px;
-    padding-left: 0px;
-    position: fixed;
-    width: 100%;
+    font-size       : 15px;
+    padding-left    : 0px;
+    position        : fixed;
+    width           : 100%;
 
 }
+button{
+    border-style    : none;
+}
 section#main{
-    background-image: url("../img/musical1.jpg");
+    background-image : url("../img/musical1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 15%;
-    margin-top: -50px;
-    color: #ffffff;
-    text-align: center;
+    background-size  : cover;
+    padding-bottom   : 15%;
+    margin-top       : -50px;
+    color            : #ffffff;
+    text-align       : center;
 }
 section#main h1{
-    font-size: 60px;
-    padding-top: 200px;
+    font-size        : 60px;
+    padding-top      : 200px;
 }
 section#main h2{
-    font-size: 35px;
+    font-size        : 35px;
 }
 section#main p{
-    font-size: 20px;
+    font-size        : 20px;
 }
 section#secondmain {
-    background-color: #252529;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 55px;
+    background-color : #252529;
+    color            : #ffffff;
+    text-align       : center;
+    padding-top      : 40px;
+    padding-bottom   : 55px;
 }
 section#secondmain div i{
-    font-size: 45px;
+    font-size        : 45px;
 }
 section#secondmain div h1{
-    font-size: 30px;
-    padding-top: 27px;
-    padding-bottom: 20px;
+    font-size        : 30px;
+    padding-top      : 27px;
+    padding-bottom   : 20px;
 }
 section#secondmain div p{
-    font-size: 18px;
-    width: 1030px;
-    text-align: center;
-    padding-left: 12%;
-    padding-top: 30px;
-    line-height: 30px;
+    font-size        : 18px;
+    width            : 1030px;
+    text-align       : center;
+    padding-left     : 12%;
+    padding-top      : 30px;
+    line-height      : 30px;
 }
 section#secondmain button{
-    color: white;
+    color           : white;
     background-color: #D3071B;
-    padding: 20px;
-    font-size: 15px;
+    padding         : 20px;
+    font-size       : 15px;
 }
 section#secondmain button:hover{
     background-color :#D3071B;
     transition       : 1s all;
 }
 section#secondmain div h5{
-    padding-bottom: 5px;
-    padding-top: 20px;
-    font-weight: lighter
+    padding-bottom   : 5px;
+    padding-top      : 20px;
+    font-weight      : lighter
 }
 section#secondmain div img{
-    border-radius: 30px;
-    border-color: #858585;
-    border-style: solid;
-    height: 600px;
-    box-shadow  : 0 8px 6px 6px #151517;
+    border-radius : 30px;
+    border-color  : #858585;
+    border-style  : solid;
+    height        : 600px;
+    box-shadow    : 0 8px 6px 6px #151517;
 }
 section#thirdmain{
-    color: #333333;
-    text-align: center;   
+    color      : #333333;
+    text-align : center;   
     padding-top: 50px;
 }
 section#thirdmain div h1{
-    font-size: 32px;
+    font-size  : 32px;
 }
 section#thirdmain div p{
-    font-size: 18px;
-    width: 1030px;
-    text-align: center;
+    font-size   : 18px;
+    width       : 1030px;
+    text-align  : center;
     padding-left: 12%;
-    padding-top: 30px;
-    line-height: 30px;
+    padding-top : 30px;
+    line-height : 30px;
 }
 section#thirdmain button{
-    color: white;
+    color           : white;
     background-color: #143F85;
-    padding: 20px;
-    font-size: 15px;
+    padding         : 20px;
+    font-size       : 15px;
 }
 section#thirdmain div img{
     border-radius: 30px;
-    border-color: #858585;
-    border-style: solid;
-    height: 850px;
-    margin-top: 47px;
-    width: 1200px;
+    border-color : #858585;
+    border-style : solid;
+    height       : 850px;
+    margin-top   : 47px;
+    width        : 1200px;
 }
 section#fourthmain{
-    background-image: url("../img/livee.jpg");
+    background-image : url("../img/livee.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 15%;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 60px;
+    background-size  : cover;
+    padding-bottom   : 15%;
+    color            : #ffffff;
+    text-align       : center;
+    margin-top       : 60px;
 }
 section#fourthmain h1{
-    font-size: 30px;
-    padding-top: 200px;
+    font-size        : 30px;
+    padding-top      : 200px;
 }
 section#fourthmain p{
-    font-size: 20px;
-    width: 60em;
-    padding-top: 30px;
-    line-height: 30px;
+    font-size   : 20px;
+    width       : 60em;
+    padding-top : 30px;
+    line-height : 30px;
     padding-left: 5%;
 }
 section#fifthmain{
-    display: flex;
-    justify-content: space-around;
+    display         : flex;
+    justify-content : space-around;
     background-color: #ffffff;
-    color: #333333;
-    margin-top: 2em;
-    margin-bottom: 5em;
+    color           : #333333;
+    margin-top      : 2em;
+    margin-bottom   : 5em;
 }
 section#fifthmain img{
-    width: 30em;
+    width       : 30em;
     padding-left: 5em;
 }
 section#fifthmain div.gift{
-    width: 38em;
-    margin-left: 4em;
+    width       : 38em;
+    margin-left : 4em;
 }
 section#fifthmain div p{
-    line-height: 1.5em;
+    line-height : 1.5em;
 }
 section#fifthmain div a{
     text-decoration: none;
-    color: #333333;
+    color          : #333333;
 }
 footer .firstfooter{
-    display: flex;
-    justify-content: space-evenly;
+    display         : flex;
+    justify-content : space-evenly;
     background-color: #252529;
-    color: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    color           : #ffffff;
+    padding-top     : 30px;
+    padding-bottom  : 70px;
 }
 footer .firstfooter h2{
-    font-size: 20px;
-    font-weight: lighter;
+    font-size       : 20px;
+    font-weight     : lighter;
 }
 footer .firstfooter a{
-    text-decoration: none;
-    color: #cccccc;
-    font-size: 13px;
-    line-height: 20px;
+    text-decoration : none;
+    color           : #cccccc;
+    font-size       : 13px;
+    line-height     : 20px;
 }
 footer .firstfooter li{
-    list-style: none;
+    list-style  : none;
 }
 footer .firstfooter hr{
-    width: 13em;
-    color: #cccccc;
+    width       : 13em;
+    color       : #cccccc;
 }
 footer .firstfooter ul{
     padding-left: 5px;
 }
 footer .copy {
     background-color: #333333;
-    text-align: center;
-    padding-top: 13px;
-    padding-bottom: 5px;
-    color: #ffffff;
+    text-align      : center;
+    padding-top     : 13px;
+    padding-bottom  : 5px;
+    color           : #ffffff;
 }
 
 @media only screen and (max-width:768px){
     .navbar{
         word-spacing: 10px;
-        font-size: 10px;
+        font-size   : 10px;
     }
     section#main{
         padding-bottom: 15%;
-        margin-top: -25px;
+        margin-top    : -25px;
+        padding-bottom: 70px;
     }
     section#main h1{
-        font-size: 30px;
+        font-size  : 30px;
         padding-top: 70px;
     }
     section#main h2{
-        font-size: 15px;
+        font-size  : 15px;
     }
     section#main p{
-        font-size: 8px;
+        font-size  : 8px;
     }
     section#secondmain {
-        padding-top: 20px;
+        padding-top   : 20px;
         padding-bottom: 25px;
     }
     section#secondmain div i{
-        font-size: 20px;
+        font-size     : 20px;
     }
     section#secondmain div h1{
-        font-size: 15px;
-        padding-top: 3px;
+        font-size     : 15px;
+        padding-top   : 3px;
         padding-bottom: 3px;
     }
     section#secondmain div p{
-        font-size: 12px;
-        width: 300px;
+        font-size   : 12px;
+        width       : 300px;
         padding-left: 3%;
-        padding-top: 3px;
-        line-height: 15px;
+        padding-top : 3px;
+        line-height : 15px;
     }
     section#secondmain button{
-        padding: 10px;
+        padding  : 10px;
         font-size: 10px;
     }
     section#secondmain div h5{
         padding-bottom: 5px;
-        padding-top: 10px;
-        font-size: 10px;
+        padding-top   : 10px;
+        font-size     : 10px;
     }
     section#secondmain div img{
-        border-radius: 30px;
-        border-style: solid;
-        height: 150px;
+        border-radius : 30px;
+        border-style  : solid;
+        height        : 150px;
     }
     section#thirdmain{
-        padding-top: 29px;
+        padding-top   : 29px;
     }
     section#thirdmain div h1{
-        font-size: 22px;
+        font-size     : 22px;
     }
     section#thirdmain div p{
-        font-size: 10px;
-        width: 300px;
+        font-size   : 10px;
+        width       : 300px;
         padding-left: 2%;
-        padding-top: 10px;
-        line-height: 15px;
+        padding-top : 10px;
+        line-height : 15px;
     }
     section#thirdmain button{
-        padding: 10px;
+        padding  : 10px;
         font-size: 10px;
     }
     section#thirdmain div img{
         border-radius: 30px;
-        height: 220px;
-        margin-top: 35px;
-        width: 280px;
+        height       : 220px;
+        margin-top   : 35px;
+        width        : 280px;
     }
     section#fourthmain{
         padding-bottom: 5%;
-        margin-top: 29px;
+        margin-top    : 29px;
     }
     section#fourthmain h1{
-        font-size: 18px;
-        padding-top: 50px;
+        font-size     : 18px;
+        padding-top   : 50px;
     }
     section#fourthmain p{
-        font-size: 10px;
-        width: 300px;
+        font-size  : 10px;
+        width      : 300px;
         padding-top: 5px;
         line-height: 10px;
     }
     section#fifthmain{
-        display: table-row;
+        display      : table-row;
         margin-bottom: 8em;
-        text-align: center;
+        text-align   : center;
     }
     section#fifthmain img{
-        width: 15em;
+        width       : 15em;
         padding-left: 2em;
     }
     section#fifthmain div.gift h1{
-        font-size: 16px;
+        font-size    : 16px;
         margin-bottom: -10px;
     }
     section#fifthmain div.gift{
-        width: 18em;
+        width      : 18em;
         margin-left: 1em;
     }
     section#fifthmain div p{
         line-height: 1.5em;
-        font-size: 10px;
+        font-size  : 10px;
     }
     section#fifthmain div a{
-        font-size: 10px;
+        font-size  : 10px;
     }
     footer .firstfooter hr{
-        width: 30px;
+        width        : 30px;
+        margin-bottom: -18px;
     }
     footer .firstfooter{
-        display: table-row;
-        padding-top: 30px;
-        padding-bottom: 70px;
-        text-align: center;
+        flex          : 1;
+        display       : flex;
+        flex-direction: column;
+        flex-basis    : 100%;
+        text-align    : center;
+        padding-bottom: 20px;
+        margin-top    : 20px;
     }
     footer .firstfooter h2{
-        font-size: 14px;
-        padding-bottom: 2px;
-        margin-bottom: -8px;
+        font-size     : 14px;
+        margin-bottom : -8px;
     }
     footer .firstfooter a{
-        font-size: 10px;
-        line-height: 0px;
+        font-size     : 10px;
+        line-height   : 0px;
     }
     footer .copy {
-        padding-top: 7px;
+        padding-top   : 7px;
         padding-bottom: 2px;
-        font-size: 10px;
+        font-size     : 10px;
  }
